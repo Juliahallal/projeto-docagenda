@@ -1,0 +1,5 @@
+.home { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+   
+   .home p { display: block; width: 100%; max-width: 600px; color: #aaa; margin: 30px 0; line-height: 26px; text-align: justify;}
+   
+  .home .opcoes{ display: flex; column-gap: 10px; flex-wrap: wrap;}

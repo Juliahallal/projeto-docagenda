@@ -1,0 +1,7 @@
+.topoAgenda{display: flex; margin: 30px 0 40px; align-items: center;}
+    .topoAgenda h1{text-align: start;}
+
+.filtro{display: block; width: 350px; position: relative;}
+    .filtro::before{content: "";display: block; position: absolute; width: 23px; height: 23px; top: 9px; right: 15px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 26 26'%3E%3Cpath fill='%235AACB2' d='M24.705 4.382a1.15 1.15 0 0 1-1.151 1.15H13.198a1.15 1.15 0 1 1 0-2.3h10.356a1.15 1.15 0 0 1 1.15 1.15Zm-1.151 4.603h-8.055a1.15 1.15 0 1 0 0 2.301h8.055a1.15 1.15 0 0 0 0-2.301Zm0 5.754H17.8a1.15 1.15 0 0 0 0 2.3h5.754a1.15 1.15 0 1 0 0-2.3Zm0 5.753h-3.452a1.15 1.15 0 0 0 0 2.301h3.452a1.15 1.15 0 1 0 0-2.301ZM6.294 1.505a1.15 1.15 0 0 0-1.151 1.151v17.935l-1.488-1.488a1.15 1.15 0 0 0-1.627 1.627l3.452 3.452a1.151 1.151 0 0 0 1.63 0l3.451-3.452a1.15 1.15 0 0 0-1.627-1.627l-1.49 1.488V2.656a1.15 1.15 0 0 0-1.15-1.15Z'/%3E%3C/svg%3E"); background-repeat: no-repeat; }
+    .filtro #filtroPaciente{display: block; width: 350px; position: relative; border: 1px solid #ccc; padding: 10px 40px 10px 10px; border-radius: 5px; background-color: rgb(76 91 106 / 6%);}
+    

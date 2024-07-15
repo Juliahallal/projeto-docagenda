@@ -1,0 +1,8 @@
+.sobre{ text-align: center; display: flex; flex-direction: column; align-items: center; }
+   
+   .sobre p { display: block; width: 100%; max-width: 600px; color: #aaa; margin: 30px 0; line-height: 26px; text-align: justify; }
+   
+   .sobre .btn{display: block; background-color: #516D8A; color: #fff; text-align: center; cursor: pointer; border-radius: 5px; border: none; margin: 20px auto 10px; padding: 10px 15px; font: 600 16px / 16px 'Cairo'; text-transform: uppercase; letter-spacing: 0.02em; transition: 0.4s;}
+      .sobre .btn.btn-outline { background-color: transparent; border-radius: 0; color: #0B2B4B; border: 1px solid #0B2B4B; padding: 7px 30px;}
+         .sobre .btn:hover { background-color: #64AFA7; color: #fff;}
+            .sobre .btn.btn-outline:hover { background-color: #000; }
